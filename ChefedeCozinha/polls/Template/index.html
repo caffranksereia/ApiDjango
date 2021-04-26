@@ -1,0 +1,9 @@
+{% if listProduto %}
+    <ul>
+    {% for produto in listProduto %}
+        <li><a href="/polls/{{ produto.id }}/">{{ produto.produto }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
