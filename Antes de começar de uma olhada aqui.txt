@@ -1,0 +1,3 @@
+set-executionPolicy -Scope CurrentUser -executionPolicy RemoteSigned
+
+.\env\Scripts\Activate.ps1
